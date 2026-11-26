@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Shafarik&display=swap');
+
+body{
+    background-color: rgb(255, 254, 254);
+
+    
+}
+.class1{
+    text-transform:capitalize;
+    text-align:center;
+    word-spacing:1.5em;
+    letter-spacing:1em;
+    font-size: 24px;
+    font-family: "Shafarik", system-ui;
+}

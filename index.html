@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes movee {
+           0% {
+            transform:translateX(-100px)}
+        
+        100% {
+            transform:translateX(20vw)}
+       }
+       @keyframes rotat {
+            0%{transform: rotate(0deg);}
+            
+            100%{transform: rotate(720deg);}
+        
+       }
+        .car{
+            position: relative;
+            width: 600px;
+            height: 400px;
+            top: 100px;
+           animation: movee 3s forwards;
+        }
+       .cuzov{
+        z-index: 20;
+        position: absolute;
+        left: 100px;
+        top:200px;
+        width: 500px;
+        height: 300px;
+        background-color: rgb(244, 169, 30);
+      clip-path: polygon(12.46% 73.65%,17.92% 58.91%,33.89% 51.91%,62.83% 51.89%,79.40% 70.81%,98.43% 79.79%,100.00% 100.00%,88.75% 100.00%,85.42% 88.81%,76.33% 89.46%,75.08% 100.00%,20.66% 100.00%,18.88% 88.93%,10.95% 89.28%,9.35% 100.00%,0.00% 100.00%,2.02% 78.89%);
+        
+       }
+       .wheel{
+        width: 80px;
+        height: 80px;
+        background-color: black;
+        clip-path: circle();
+        position: absolute;
+        left: 145px; 
+        bottom: -130px;
+        z-index: 100;
+       }
+       .wheel2{
+        width: 80px;
+        height: 80px;
+        background-color: black;
+        clip-path: circle();
+        position: absolute;
+        left: 460px; 
+        bottom: -130px;
+        z-index: 100;
+       }
+       .window{
+        position: absolute;
+        z-index: 100;
+        bottom: -50px;
+        left: 230px;
+        background-color: rgba(63, 63, 63, 0.612);
+        width: 200px;
+        height: 100px;
+        clip-path: polygon(7.00% 49.72%,22.44% 30.13%,66.23% 35.18%,93.00% 50.43%,100% 100%,0% 100%);
+       }
+       .disc{
+        height: 100%;
+        width: 100%;
+        animation: rotat 3s ;
+         background: #757574;
+        clip-path: polygon(
+    50% 0%, 57.65% 31.52%, 85.36% 14.64%, 68.48% 42.35%,
+    100% 50%, 68.48% 57.65%, 85.36% 85.36%, 57.65% 68.48%,
+    50% 100%, 42.35% 68.48%, 14.64% 85.36%, 31.52% 57.65%,
+    0% 50%, 31.52% 42.35%, 14.64% 14.64%, 42.35% 31.52%
+  );
+       }
+
+       
+    </style>
+</head>
+<body>
+    <div class="car">
+        <div class="cuzov"></div>
+        <div class="window"></div>
+        <div class="wheel">
+            <div class="disc"></div>
+        </div>asdsjhagfhjagfjhagrrhjgjhr
+        aerferf
+        eer
+        faer
+        faf
+        f
+        earf
+        eaf
+        e
+        <fieldset>erfa</fieldset>
+        <div class="wheel2">
+            <div class="disc"></div>
+        </div>
+    </div>
+</body>
+</html>
